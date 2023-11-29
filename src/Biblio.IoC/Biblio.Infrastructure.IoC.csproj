@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Biblio.Application\Biblio.Application.csproj" />
+    <ProjectReference Include="..\Biblio.Data\Biblio.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\Biblio.Infrastructure.Messaging\Biblio.Infrastructure.Messaging.csproj" />
+  </ItemGroup>
+
+</Project>
