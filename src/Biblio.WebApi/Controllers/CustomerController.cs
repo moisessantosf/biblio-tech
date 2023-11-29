@@ -6,11 +6,11 @@ namespace Biblio.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ClientsController : ControllerBase
+    public class CustomerController : ControllerBase
     {
         private readonly ICustomerService _clientService;
 
-        public ClientsController(ICustomerService clientService)
+        public CustomerController(ICustomerService clientService)
         {
             _clientService = clientService;
         }
